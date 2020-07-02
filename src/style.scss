@@ -1,0 +1,107 @@
+@use 'sass:color';
+@use 'styles/vendors/bootstrap/bootstrap' as *;
+@use 'styles/variables' as *;
+@use 'styles/utilities' as *;
+
+// bootstrap customize
+small,
+.small {
+  font-size: 85%;
+}
+.btn {
+  padding: 0.75rem;
+  box-shadow: 0px 7px 25px -10px rgba(0, 0, 0, 0.5);
+  transition: background-color 0.1s cubic-bezier(0.09, 0.94, 0.58, 1),
+    color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+}
+.btn:focus,
+.btn.focus {
+  box-shadow: none;
+}
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-success:focus,
+.btn-success.focus,
+.btn-secondary:focus,
+.btn-secondary.focus,
+.btn-danger:focus,
+.btn-danger.focus,
+.btn-info:focus,
+.btn-info.focus,
+.btn-warning:focus,
+.btn-warning.focus {
+  box-shadow: none !important;
+}
+.container {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+// Project specific:
+
+// # utilities:
+.text-gray {
+  color: $neutral-grayish-blue;
+}
+.text-light-gray {
+  color: $neutral-light-gray;
+}
+body {
+  background-color: $neutral-light-gray;
+  font-size: $body-font-size;
+  font-family: "Karla";
+}
+.main {
+  max-width: 43.5rem;
+}
+.card-main {
+  box-shadow: 0px 10px 45px -20px $neutral-grayish-blue;
+  border: none;
+  border-radius: 0.35rem;
+}
+.text-join {
+  font-size: 85%;
+}
+
+.bg-primary-lighten {
+  background-color: color.scale(
+    $primary-cyan,
+    $lightness: 15%,
+    $saturation: -25%
+  );
+}
+.heading-join {
+  font-size: 1.25rem;
+}
+.heading-join-2 {
+  font-size: 0.98rem;
+}
+.heading-5-6 {
+  font-size: 1.1rem;
+}
+.text-join {
+  font-size: 0.85rem;
+}
+.text-0-98 {
+  font-size: 0.98rem;
+}
+.list-why-us {
+  line-height: 1.3;
+
+  li {
+    color: color.scale($neutral-light-gray, $alpha: -10%);
+  }
+}
+
+@media (min-width: 576px) {
+  .heading-join {
+    font-size: 1.52rem;
+  }
+  .heading-join-2 {
+    font-size: 1.1rem;
+  }
+  .text-join {
+    font-size: 0.97rem;
+  }
+}
