@@ -10,9 +10,9 @@
   font-family: "Karla";
   font-style: normal;
   font-weight: 400;
-  src: url("./src/fonts/karla-v13-latin-regular.eot");
+  src: url("./fonts/karla-v13-latin-regular.eot");
   /* IE9 Compat Modes */
-  src: local("Karla"), local("Karla-Regular"), url("./src/fonts/karla-v13-latin-regular.eot?#iefix") format("embedded-opentype"), url("./src/fonts/karla-v13-latin-regular.woff2") format("woff2"), url("./src/fonts/karla-v13-latin-regular.woff") format("woff"), url("./src/fonts/karla-v13-latin-regular.ttf") format("truetype"), url("./src/fonts/karla-v13-latin-regular.svg#Karla") format("svg");
+  src: local("Karla"), local("Karla-Regular"), url("./fonts/karla-v13-latin-regular.eot?#iefix") format("embedded-opentype"), url("./fonts/karla-v13-latin-regular.woff2") format("woff2"), url("./fonts/karla-v13-latin-regular.woff") format("woff"), url("./fonts/karla-v13-latin-regular.ttf") format("truetype"), url("./fonts/karla-v13-latin-regular.svg#Karla") format("svg");
   /* Legacy iOS */
 }
 /* karla-700 - latin */
@@ -20,9 +20,9 @@
   font-family: "Karla";
   font-style: normal;
   font-weight: 700;
-  src: url("./src/fonts/karla-v13-latin-700.eot");
+  src: url("./fonts/karla-v13-latin-700.eot");
   /* IE9 Compat Modes */
-  src: local("Karla Bold"), local("Karla-Bold"), url("./src/fonts/karla-v13-latin-700.eot?#iefix") format("embedded-opentype"), url("./src/fonts/karla-v13-latin-700.woff2") format("woff2"), url("./src/fonts/karla-v13-latin-700.woff") format("woff"), url("./src/fonts/karla-v13-latin-700.ttf") format("truetype"), url("./src/fonts/karla-v13-latin-700.svg#Karla") format("svg");
+  src: local("Karla Bold"), local("Karla-Bold"), url("./fonts/karla-v13-latin-700.eot?#iefix") format("embedded-opentype"), url("./fonts/karla-v13-latin-700.woff2") format("woff2"), url("./fonts/karla-v13-latin-700.woff") format("woff"), url("./fonts/karla-v13-latin-700.ttf") format("truetype"), url("./fonts/karla-v13-latin-700.svg#Karla") format("svg");
   /* Legacy iOS */
 }
 :root {
@@ -9934,9 +9934,9 @@ h3 {
   font-family: "Karla";
   font-style: normal;
   font-weight: 400;
-  src: url("./src/fonts/karla-v13-latin-regular.eot");
+  src: url("./fonts/karla-v13-latin-regular.eot");
   /* IE9 Compat Modes */
-  src: local("Karla"), local("Karla-Regular"), url("./src/fonts/karla-v13-latin-regular.eot?#iefix") format("embedded-opentype"), url("./src/fonts/karla-v13-latin-regular.woff2") format("woff2"), url("./src/fonts/karla-v13-latin-regular.woff") format("woff"), url("./src/fonts/karla-v13-latin-regular.ttf") format("truetype"), url("./src/fonts/karla-v13-latin-regular.svg#Karla") format("svg");
+  src: local("Karla"), local("Karla-Regular"), url("./fonts/karla-v13-latin-regular.eot?#iefix") format("embedded-opentype"), url("./fonts/karla-v13-latin-regular.woff2") format("woff2"), url("./fonts/karla-v13-latin-regular.woff") format("woff"), url("./fonts/karla-v13-latin-regular.ttf") format("truetype"), url("./fonts/karla-v13-latin-regular.svg#Karla") format("svg");
   /* Legacy iOS */
 }
 /* karla-700 - latin */
@@ -9944,9 +9944,9 @@ h3 {
   font-family: "Karla";
   font-style: normal;
   font-weight: 700;
-  src: url("./src/fonts/karla-v13-latin-700.eot");
+  src: url("./fonts/karla-v13-latin-700.eot");
   /* IE9 Compat Modes */
-  src: local("Karla Bold"), local("Karla-Bold"), url("./src/fonts/karla-v13-latin-700.eot?#iefix") format("embedded-opentype"), url("./src/fonts/karla-v13-latin-700.woff2") format("woff2"), url("./src/fonts/karla-v13-latin-700.woff") format("woff"), url("./src/fonts/karla-v13-latin-700.ttf") format("truetype"), url("./src/fonts/karla-v13-latin-700.svg#Karla") format("svg");
+  src: local("Karla Bold"), local("Karla-Bold"), url("./fonts/karla-v13-latin-700.eot?#iefix") format("embedded-opentype"), url("./fonts/karla-v13-latin-700.woff2") format("woff2"), url("./fonts/karla-v13-latin-700.woff") format("woff"), url("./fonts/karla-v13-latin-700.ttf") format("truetype"), url("./fonts/karla-v13-latin-700.svg#Karla") format("svg");
   /* Legacy iOS */
 }
 .m-6 {
